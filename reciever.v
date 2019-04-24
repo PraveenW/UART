@@ -1,4 +1,22 @@
-//Need to connect the outputs
+//////////////////////////////////////////////////////////////////////////////////
+// Company: San Jose State University
+// Engineer: Praveen Waliitagi
+// 
+// Create Date:    13:08:29 04/09/2015 
+// Design Name: USART0
+// Module Name:    reciever
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
 module reciever (
 input org_clk,
 input clk,
