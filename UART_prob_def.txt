@@ -1,0 +1,19 @@
+Design a USART0 for the ATMega328. (The datasheet is in the modules section of Canvas). Pass the very simple u0tb.sv testbench (You will make a test bench later).
+
+Submit your design file, and run results on Canvas.
+
+Notes:
+
+The u0tb.sv file can be found in the lab at ~morris/272hw
+
+You will also find a sv_uvm file there which will run VCS in system verilog mode
+
+To run the code use
+
+./sv_uvm u0tb.sv
+
+Your design must be called u0.sv
+
+The design must synthesize.
+
+You must use the interface in the test bench

@@ -1,0 +1,1756 @@
+irun: 14.10-p001: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+irun: *W,LEXTSF: Unknown suffix (.tsbvlibp) found in a libext option.  The suffixes will be mapped to Verilog.
+file: u0tbgates.sv
+	interface worklib.u0if:sv
+		errors: 0, warnings: 0
+	module worklib.u0:v
+		errors: 0, warnings: 0
+        expected.try_get(ed);
+                       |
+ncvlog: *W,FUNTSK (u0tbgates.sv,1742|23): function called as a task without void'().
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncvlog: *W,BADTIF (u0tbgates.sv,344|19): a function cannot enable a task [10.3.4(IEEE)].
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncvlog: *W,BADTIF (u0tbgates.sv,393|19): a function cannot enable a task [10.3.4(IEEE)].
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncvlog: *W,BADTIF (u0tbgates.sv,442|19): a function cannot enable a task [10.3.4(IEEE)].
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncvlog: *W,BADTIF (u0tbgates.sv,505|19): a function cannot enable a task [10.3.4(IEEE)].
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncvlog: *W,BADTIF (u0tbgates.sv,1670|19): a function cannot enable a task [10.3.4(IEEE)].
+	module worklib.top:sv
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD4QXL.tsbvlibp
+	module tc240c.CFD4QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2QXL.tsbvlibp
+	module tc240c.CFD2QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2XL.tsbvlibp
+	module tc240c.CMX2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2X1.tsbvlibp
+	module tc240c.CMX2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp
+	module tc240c.CNR3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp
+	module tc240c.CNR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp
+	module tc240c.CAN2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp
+	module tc240c.CND2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1X1.tsbvlibp
+	module tc240c.COND1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp
+	module tc240c.CND3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp
+	module tc240c.CANR4CX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp
+	module tc240c.CIVX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR5CXL.tsbvlibp
+	module tc240c.CANR5CXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp
+	module tc240c.COR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3X1.tsbvlibp
+	module tc240c.CNR3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp
+	module tc240c.CENX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp
+	module tc240c.CEOX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp
+	module tc240c.COND1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMXI2X1.tsbvlibp
+	module tc240c.CMXI2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3X1.tsbvlibp
+	module tc240c.CANR3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp
+	module tc240c.CIVX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp
+	module tc240c.CANR1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp
+	module tc240c.COND3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2GX1.tsbvlibp
+	module tc240c.CMX2GX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR8X1.tsbvlibp
+	module tc240c.COR8X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp
+	module tc240c.CNR2IX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp
+	module tc240c.CND2IX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp
+	module tc240c.CANR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp
+	module tc240c.COND2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND4CX1.tsbvlibp
+	module tc240c.COND4CX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX8.tsbvlibp
+	module tc240c.CIVX8:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp
+	module tc240c.CND2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp
+	module tc240c.CIVXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp
+	module tc240c.CNR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMXI2XL.tsbvlibp
+	module tc240c.CMXI2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp
+	module tc240c.CNR2IXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp
+	module tc240c.COND11X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR1XL.tsbvlibp
+	module tc240c.CAOR1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp
+	module tc240c.COND2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp
+	module tc240c.CANR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp
+	module tc240c.COND3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp
+	module tc240c.CAOR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR4X1.tsbvlibp
+	module tc240c.COR4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN4X1.tsbvlibp
+	module tc240c.CAN4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND4CXL.tsbvlibp
+	module tc240c.COND4CXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IXL.tsbvlibp
+	module tc240c.CND2IXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3XL.tsbvlibp
+	module tc240c.CANR3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND11XL.tsbvlibp
+	module tc240c.COND11XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR11X1.tsbvlibp
+	module tc240c.CANR11X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp
+	module tc240c.CANR4CXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp
+	module tc240c.CAOR1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp
+	module tc240c.CANR11XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp
+	module tc240c.COAN1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD4QXL.tsbvlibp
+	module tc240c.tsbCFD4QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2QXL.tsbvlibp
+	module tc240c.tsbCFD2QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21prim.tsbvlibp
+	primitive tc240c.TMUX21prim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21INVprim.tsbvlibp
+	primitive tc240c.TMUX21INVprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbMUXXprim.tsbvlibp
+	primitive tc240c.tsbMUXXprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TFDPSBNOprim.tsbvlibp
+	primitive tc240c.TFDPSBNOprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TFDPRBNOprim.tsbvlibp
+	primitive tc240c.TFDPRBNOprim:tsbvlibp
+		errors: 0, warnings: 0
+$CDSROOT = /apps/cadence/INCISIV141
+$TESTDIR = /home/wa/wali9257/ee272/272hw/fina_run/synth_run
+
+TOOL:	ncsc	14.10-p001
+ncsc C++ parameters: 
+	ncsc -COMPILER $CDSROOT/tools/cdsgcc/gcc/4.4/bin/g++ 
+	-f ./INCA_libs/irun.lnx86.14.10.nc/ncsc_run/ncsc_obj/ncsc.args
+	-MANUAL 
+	-CFLAGS "-DNCSC
+		-I$CDSROOT/tools/systemc/include_pch
+		-I$CDSROOT/tools/tbsc/include
+		-I$CDSROOT/tools/vic/include
+		-I$CDSROOT/tools/methodology/OVM/CDNS-2.1.2/sc/src
+		-I/home/morris/uvm-1.2/sc/sc
+		-I/home/morris/uvm-1.2/ml/sc
+		-I$CDSROOT/tools/systemc/include/cci
+		-I$CDSROOT/tools/systemc/include/factory
+		-I$CDSROOT/tools/systemc/include/tlm2
+		-c
+		-x c++ -m32  -Wall 
+		-I$CDSROOT/tools/include
+		-I$CDSROOT/tools/inca/include"
+
+ncsc: compiling $/home/morris/uvm-1.2/src/dpi/uvm_dpi.cc
+
+building library run.so
+
+		Caching library 'tc240c' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		u0_pkg
+		top
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncelab: *W,NOTVFW (./u0tbgates.sv,344|19): Expecting a SystemVerilog void function name. The task 'err' should be made a void function, not a task. Currently this is treated as a warning for backward compatibility but be aware that calling a task in this context is illegal SystemVerilog and can give unpredictable results. Further, this condition may be treated as an error in the future.
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncelab: *W,NOTVFW (./u0tbgates.sv,393|19): Expecting a SystemVerilog void function name. The task 'err' should be made a void function, not a task. Currently this is treated as a warning for backward compatibility but be aware that calling a task in this context is illegal SystemVerilog and can give unpredictable results. Further, this condition may be treated as an error in the future.
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncelab: *W,NOTVFW (./u0tbgates.sv,442|19): Expecting a SystemVerilog void function name. The task 'err' should be made a void function, not a task. Currently this is treated as a warning for backward compatibility but be aware that calling a task in this context is illegal SystemVerilog and can give unpredictable results. Further, this condition may be treated as an error in the future.
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncelab: *W,NOTVFW (./u0tbgates.sv,505|19): Expecting a SystemVerilog void function name. The task 'err' should be made a void function, not a task. Currently this is treated as a warning for backward compatibility but be aware that calling a task in this context is illegal SystemVerilog and can give unpredictable results. Further, this condition may be treated as an error in the future.
+          mjerr::err("connect", "u0_if not found");
+                   |
+ncelab: *W,NOTVFW (./u0tbgates.sv,1670|19): Expecting a SystemVerilog void function name. The task 'err' should be made a void function, not a task. Currently this is treated as a warning for backward compatibility but be aware that calling a task in this context is illegal SystemVerilog and can give unpredictable results. Further, this condition may be treated as an error in the future.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tc240c.CANR11X1:tsbvlibp <0x03061d9a>
+			streams:   0, words:     0
+		tc240c.CANR11XL:tsbvlibp <0x1dac717d>
+			streams:   0, words:     0
+		tc240c.CANR1XL:tsbvlibp <0x73ea121e>
+			streams:   0, words:     0
+		tc240c.CANR2X1:tsbvlibp <0x5126b468>
+			streams:   0, words:     0
+		tc240c.CANR2XL:tsbvlibp <0x6761cdfd>
+			streams:   0, words:     0
+		tc240c.CANR3X1:tsbvlibp <0x0659f961>
+			streams:   0, words:     0
+		tc240c.CANR3XL:tsbvlibp <0x3e798406>
+			streams:   0, words:     0
+		tc240c.CANR4CX1:tsbvlibp <0x318e1010>
+			streams:   0, words:     0
+		tc240c.CANR4CXL:tsbvlibp <0x69e59774>
+			streams:   0, words:     0
+		tc240c.CANR5CXL:tsbvlibp <0x540dca97>
+			streams:   0, words:     0
+		tc240c.CAOR1X1:tsbvlibp <0x5b41a486>
+			streams:   0, words:     0
+		tc240c.CAOR1XL:tsbvlibp <0x5a9fb0e8>
+			streams:   0, words:     0
+		tc240c.CAOR2XL:tsbvlibp <0x55449cb3>
+			streams:   0, words:     0
+		tc240c.CENX1:tsbvlibp <0x3e58e73d>
+			streams:   0, words:     0
+		tc240c.CEOX1:tsbvlibp <0x37cd4647>
+			streams:   0, words:     0
+		tc240c.CMX2GX1:tsbvlibp <0x5c60fe8c>
+			streams:   0, words:     0
+		tc240c.CMX2X1:tsbvlibp <0x083ddd4f>
+			streams:   0, words:     0
+		tc240c.CMX2XL:tsbvlibp <0x3c90b048>
+			streams:   0, words:     0
+		tc240c.CMXI2X1:tsbvlibp <0x7fd81806>
+			streams:   0, words:     0
+		tc240c.CMXI2XL:tsbvlibp <0x342aeaf4>
+			streams:   0, words:     0
+		tc240c.COAN1XL:tsbvlibp <0x1ae162e4>
+			streams:   0, words:     0
+		tc240c.COND11X1:tsbvlibp <0x0061947c>
+			streams:   0, words:     0
+		tc240c.COND11XL:tsbvlibp <0x35096780>
+			streams:   0, words:     0
+		tc240c.COND1X1:tsbvlibp <0x271c1230>
+			streams:   0, words:     0
+		tc240c.COND1XL:tsbvlibp <0x74492a26>
+			streams:   0, words:     0
+		tc240c.COND2X1:tsbvlibp <0x3f2682f1>
+			streams:   0, words:     0
+		tc240c.COND2XL:tsbvlibp <0x50e57b6d>
+			streams:   0, words:     0
+		tc240c.COND3X1:tsbvlibp <0x1551cc5b>
+			streams:   0, words:     0
+		tc240c.COND3X1:tsbvlibp <0x77c39d13>
+			streams:   0, words:     0
+		tc240c.COND3XL:tsbvlibp <0x46f8fcaf>
+			streams:   0, words:     0
+		tc240c.COND4CX1:tsbvlibp <0x1c7c4f8e>
+			streams:   0, words:     0
+		tc240c.COND4CXL:tsbvlibp <0x4e4358bf>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QXL:tsbvlibp <0x09c7207f>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QXL:tsbvlibp <0x64284e4e>
+			streams:   0, words:     0
+		tc240c.tsbCFD4QXL:tsbvlibp <0x533d48ee>
+			streams:   0, words:     0
+		tc240c.tsbCFD4QXL:tsbvlibp <0x7382bc44>
+			streams:   0, words:     0
+		worklib.top:sv <0x168e624e>
+			streams:  87, words: 221842
+		worklib.u0_pkg:sv <0x135508c0>
+			streams:  49, words: 61056
+		worklib.u0_pkg:sv <0x1fbe75be>
+			streams:   8, words:  2919
+		worklib.u0_pkg:sv <0x24c1d797>
+			streams:   0, words:     0
+		worklib.u0_pkg:sv <0x498b5101>
+			streams:   7, words:  3021
+		worklib.u0_pkg:sv <0x5c90de0b>
+			streams:   7, words:  2116
+		worklib.u0_pkg:sv <0x5fa3c6e2>
+			streams:   7, words:  3087
+		worklib.u0_pkg:sv <0x6470d1d9>
+			streams:   8, words:  3510
+		worklib.u0_pkg:sv <0x781d30c3>
+			streams:  13, words: 24445
+		worklib.u0if:sv <0x3cd824c6>
+			streams:  17, words:  9877
+		worklib.uvm_pkg:sv <0x0026b8d7>
+			streams:  50, words: 71003
+		worklib.uvm_pkg:sv <0x05124aab>
+			streams:  26, words: 56225
+		worklib.uvm_pkg:sv <0x082e326a>
+			streams:  32, words: 48950
+		worklib.uvm_pkg:sv <0x08ca6fb3>
+			streams:  26, words: 46483
+		worklib.uvm_pkg:sv <0x0bb5814d>
+			streams:   7, words:  3093
+		worklib.uvm_pkg:sv <0x0bba5171>
+			streams:   7, words:  3093
+		worklib.uvm_pkg:sv <0x0deef133>
+			streams:   7, words:  2019
+		worklib.uvm_pkg:sv <0x0dfb9341>
+			streams:  22, words: 62893
+		worklib.uvm_pkg:sv <0x0e1c6410>
+			streams:  16, words: 26994
+		worklib.uvm_pkg:sv <0x10e641ba>
+			streams:  26, words: 44321
+		worklib.uvm_pkg:sv <0x11b3a229>
+			streams:  27, words: 56089
+		worklib.uvm_pkg:sv <0x11ec44c6>
+			streams:  27, words: 43615
+		worklib.uvm_pkg:sv <0x14476470>
+			streams: 113, words: 124655
+		worklib.uvm_pkg:sv <0x16a6dacd>
+			streams:  27, words: 60186
+		worklib.uvm_pkg:sv <0x1743befa>
+			streams:  33, words: 53236
+		worklib.uvm_pkg:sv <0x1a579827>
+			streams: 328, words: 566797
+		worklib.uvm_pkg:sv <0x1ad43da8>
+			streams:  23, words: 42464
+		worklib.uvm_pkg:sv <0x1b6aff05>
+			streams:  29, words: 52208
+		worklib.uvm_pkg:sv <0x1c70ed10>
+			streams:  26, words: 47123
+		worklib.uvm_pkg:sv <0x21285baf>
+			streams:  25, words: 88207
+		worklib.uvm_pkg:sv <0x21594248>
+			streams:   8, words: 10656
+		worklib.uvm_pkg:sv <0x23fe2c58>
+			streams: 331, words: 651806
+		worklib.uvm_pkg:sv <0x272c023f>
+			streams:  29, words: 43727
+		worklib.uvm_pkg:sv <0x27383549>
+			streams:  25, words: 107597
+		worklib.uvm_pkg:sv <0x29d0dacf>
+			streams:  26, words: 51231
+		worklib.uvm_pkg:sv <0x29f08f77>
+			streams:  28, words: 45484
+		worklib.uvm_pkg:sv <0x2a01f372>
+			streams:  24, words: 33640
+		worklib.uvm_pkg:sv <0x2d785dc5>
+			streams:  25, words: 63455
+		worklib.uvm_pkg:sv <0x2f693b51>
+			streams:  25, words: 91815
+		worklib.uvm_pkg:sv <0x33705c86>
+			streams:  25, words: 96490
+		worklib.uvm_pkg:sv <0x3407cd34>
+			streams: 139, words: 153120
+		worklib.uvm_pkg:sv <0x34ad6ff6>
+			streams:  36, words: 65599
+		worklib.uvm_pkg:sv <0x364b331e>
+			streams: 5473, words: 15895829
+		worklib.uvm_pkg:sv <0x3800e31c>
+			streams:  29, words: 173056
+		worklib.uvm_pkg:sv <0x3867f682>
+			streams:  18, words: 25623
+		worklib.uvm_pkg:sv <0x3891862c>
+			streams:  26, words: 103794
+		worklib.uvm_pkg:sv <0x38d3fef2>
+			streams:  30, words: 176311
+		worklib.uvm_pkg:sv <0x3abd77bb>
+			streams:  36, words: 61887
+		worklib.uvm_pkg:sv <0x3f201169>
+			streams:  25, words: 110318
+		worklib.uvm_pkg:sv <0x3f4a6ce1>
+			streams:   8, words: 11169
+		worklib.uvm_pkg:sv <0x3fbab709>
+			streams:  31, words: 41633
+		worklib.uvm_pkg:sv <0x409aeb1e>
+			streams:  27, words: 73801
+		worklib.uvm_pkg:sv <0x40e4936b>
+			streams:  17, words: 19094
+		worklib.uvm_pkg:sv <0x440976dc>
+			streams:  31, words: 69888
+		worklib.uvm_pkg:sv <0x47fd93ce>
+			streams:   7, words:  2320
+		worklib.uvm_pkg:sv <0x4e5f52c0>
+			streams: 238, words: 461761
+		worklib.uvm_pkg:sv <0x54fcc47a>
+			streams:  27, words: 58733
+		worklib.uvm_pkg:sv <0x58c1c07a>
+			streams:  72, words: 214084
+		worklib.uvm_pkg:sv <0x5a16a3fc>
+			streams: 179, words: 252871
+		worklib.uvm_pkg:sv <0x5c99f24a>
+			streams:  27, words: 62870
+		worklib.uvm_pkg:sv <0x5f3cac89>
+			streams: 239, words: 480759
+		worklib.uvm_pkg:sv <0x6619b843>
+			streams: 307, words: 531463
+		worklib.uvm_pkg:sv <0x6adb5dd4>
+			streams:   7, words:  3093
+		worklib.uvm_pkg:sv <0x6b0a2400>
+			streams:  26, words: 47239
+		worklib.uvm_pkg:sv <0x6f633299>
+			streams:  26, words: 41791
+		worklib.uvm_pkg:sv <0x70e8641a>
+			streams: 114, words: 113305
+		worklib.uvm_pkg:sv <0x71475ee8>
+			streams:   7, words:  9963
+		worklib.uvm_pkg:sv <0x75cc819c>
+			streams:  26, words: 46883
+		worklib.uvm_pkg:sv <0x76802f01>
+			streams:   7, words:  2019
+		worklib.uvm_pkg:sv <0x7d7bb102>
+			streams:  25, words: 78051
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                     720      57
+		Interfaces:                    1       1
+		Verilog packages:              2       2
+		UDPs:                        214       5
+		Primitives:                 3704       8
+		Timing outputs:              579      41
+		Registers:                 18844   11297
+		Scalar wires:                870       -
+		Expanded wires:               24       3
+		Named events:                  2       9
+		Initial blocks:              377     172
+		Clocking blocks:               1       1
+		Clocking items:               12      12
+		Parallel blocks:              38      39
+		Pseudo assignments:           15      15
+		Timing checks:              1251     847
+		Assertions:                    3       3
+		SV Class declarations:       249     364
+		SV Class specializations:    570     570
+		Simulation timescale:       10ps
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+ncsim> source /apps/cadence/INCISIV141/tools/inca/files/ncsimrc
+ncsim> run
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test u0_test...
+UVM_INFO u0tbgates.sv(1837) @ 0: uvm_test_top.env [version] 1.005
+UVM_INFO u0tbgates.sv(1844) @ 4500: uvm_test_top.env [debug] case ix  0 iy  0 ip  0
+UVM_INFO u0tbgates.sv(788) @ 1075500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2131500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 101043500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 102451500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 201715500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 202419500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 300979500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 301683500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 302387500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 402707500: uvm_test_top.env.agent.txsbtm [debug] delta time   21120 expected    3680 mult    5.74
+UVM_INFO u0tbgates.sv(788) @ 500915500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 501619500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 600883500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 601587500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 602643500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 700851500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 701555500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 702259500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 800819500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 801523500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 901139500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 901843500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 902547500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1001107500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 1002163500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 1102131500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 1201043500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1202099500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1202803500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1301363500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 1302771500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1400979500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1402035500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1402739500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1500947500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1502707500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1601267500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 1700883500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1701939500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 1800851500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1900819500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 1902227500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2000787500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2001843500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2102515500: uvm_test_top.env.agent.txsbtm [debug] delta time   17600 expected    3680 mult    4.78
+UVM_INFO u0tbgates.sv(788) @ 2201427500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2202483500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2302099500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 2302803500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 2319062500: uvm_test_top.env [debug] case ix  0 iy  0 ip  1
+UVM_INFO u0tbgates.sv(788) @ 2420376500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2421432500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2519992500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2521400500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2620664500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 2621368500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2719928500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2720632500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2721336500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2820248500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 2820952500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 2920568500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 2921624500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3019832500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3020536500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3021592500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3120504500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3121912500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3220120500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3221176500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3320088500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3321848500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 3420056500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3421816500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 3520024500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3521784500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3620344500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3719960500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3721720500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3820280500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3820984500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3920248500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 3920952500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 3921656500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4020216500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 4120184500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 4120888500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4121592500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4220152500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4221560500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 4320120500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4320824500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4321880500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4421144500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 4520760500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 4521816500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 4621784500: uvm_test_top.env.agent.txsbtm [debug] delta time   21120 expected    3680 mult    5.74
+UVM_INFO u0tbgates.sv(788) @ 4721752500: uvm_test_top.env.agent.txsbtm [debug] delta time   21120 expected    3680 mult    5.74
+UVM_INFO u0tbgates.sv(1844) @ 4738115500: uvm_test_top.env [debug] case ix  0 iy  2 ip  0
+UVM_INFO u0tbgates.sv(788) @ 4839328500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 4840384500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 4841088500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4938944500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 4940352500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 5039616500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 5040320500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5041024500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5138880500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5139584500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5140288500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5239200500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5241312500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 5339520500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 5340576500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5439136500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5440896500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 5539104500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5539808500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5541216500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 5639072500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5640480500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5641184500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5739392500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 5740096500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5839008500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5840768500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 5938976500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5939680500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 5941088500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 6038944500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6040000500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6139264500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6139968500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6141024500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6239584500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 6339200500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6340256500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6439168500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6439872500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6440928500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6539488500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6540192500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6639104500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6640160500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6640864500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6739072500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6739776500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6741184500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 6839392500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6840800500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 6939360500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 6941120500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7038976500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7040736500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 7138944500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7140000500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7141056500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 7157172500: uvm_test_top.env [debug] case ix  0 iy  2 ip  1
+UVM_INFO u0tbgates.sv(788) @ 7258275500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 7259331500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 7260035500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7358243500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7359651500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 7458915500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 7459619500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7460323500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7558179500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7558883500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7559587500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7658499500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 7659907500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7758115500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7759875500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 7858083500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7858787500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 7860195500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 7958755500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 7960163500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8058371500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8060131500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 8157987500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8160099500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 8258307500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8259011500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8357923500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8358979500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8360035500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8458243500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8459651500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8460355500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8559619500: uvm_test_top.env.agent.txsbtm [debug] delta time   17600 expected    3680 mult    4.78
+UVM_INFO u0tbgates.sv(788) @ 8658179500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8659587500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8758499500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8759555500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 8858819500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 8859875500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 8958787500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 8959843500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9058051500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9059107500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9060163500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9158723500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 9159779500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9257987500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9259043500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9260099500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9358307500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9360067500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 9458627500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9460387500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 9558243500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9559299500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9560355500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 9576226500: uvm_test_top.env [debug] case ix  0 iy  3 ip  0
+UVM_INFO u0tbgates.sv(788) @ 9677573500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9678629500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9777189500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9778597500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 9779301500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9877861500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 9878565500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9977125500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9977829500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9978533500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 9979237500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10077797500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 10078853500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10178117500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 10179173500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10277029500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10278437500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10377349500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10379109500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10477669500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10478725500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10479429500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10577285500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10579397500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 10677605500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10678661500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10777221500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10778277500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10877189500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10877893500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10878949500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 10977157500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 10978213500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11077125500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11079237500: uvm_test_top.env.agent.txsbtm [debug] delta time   17600 expected    3680 mult    4.78
+UVM_INFO u0tbgates.sv(788) @ 11177093500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11177797500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11277765500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 11279173500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 11377029500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11378789500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 11476997500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11479109500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 11577669500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 11578373500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11579077500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11677285500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11679397500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 11777253500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11777957500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11878277500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 11977541500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 11978245500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 11979301500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 11995281500: uvm_test_top.env [debug] case ix  0 iy  3 ip  1
+UVM_INFO u0tbgates.sv(788) @ 12096516500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12097572500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12196132500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12197540500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12198244500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12296804500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 12297508500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12396068500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12396772500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12397476500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12398180500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12496036500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12497092500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12498148500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12596356500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12597060500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12597764500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12598468500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12697380500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 12698436500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12796292500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12797348500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 12798404500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 12896964500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 12898372500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 12996580500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13096196500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13097956500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13196164500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13198276500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13296132500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13297188500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13298244500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13396804500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 13398212500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 13496420500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13498180500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 13596740500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 13597796500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13696356500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13698116500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 13796324500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13797380500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13798436500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13896644500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13898404500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 13996260500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 13998020500: uvm_test_top.env.agent.txsbtm [debug] delta time   10560 expected    3680 mult    2.87
+UVM_INFO u0tbgates.sv(788) @ 14096580500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 14097988500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 14196548500: uvm_test_top.env.agent.txsbtm [debug] delta time    7040 expected    3680 mult    1.91
+UVM_INFO u0tbgates.sv(788) @ 14197604500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 14198308500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 14297220500: uvm_test_top.env.agent.txsbtm [debug] delta time   14080 expected    3680 mult    3.83
+UVM_INFO u0tbgates.sv(788) @ 14396132500: uvm_test_top.env.agent.txsbtm [debug] delta time    3520 expected    3680 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 14398244500: uvm_test_top.env.agent.txsbtm [debug] delta time   17600 expected    3680 mult    4.78
+UVM_INFO u0tbgates.sv(1844) @ 14414339500: uvm_test_top.env [debug] case ix  1 iy  0 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 16833393500: uvm_test_top.env [debug] case ix  1 iy  0 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 19252449500: uvm_test_top.env [debug] case ix  1 iy  2 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 21671502500: uvm_test_top.env [debug] case ix  1 iy  2 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 24090557500: uvm_test_top.env [debug] case ix  1 iy  3 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 26509619500: uvm_test_top.env [debug] case ix  1 iy  3 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 28928677500: uvm_test_top.env [debug] case ix  2 iy  0 ip  0
+UVM_INFO u0tbgates.sv(788) @ 29029903500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29031055500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29032207500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29129743500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29131279500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29132431500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29230351500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 29231119500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29232271500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29329807500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29330575500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29331343500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29332495500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29430415500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 29431567500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29529871500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 29532175500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 29630863500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 29631631500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29632399500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29729551500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29731087500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 29732239500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29829775500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29832463500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 29929615500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 29931535500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 30029839500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30031759500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 30129679500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30130831500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30132367500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30229519500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30231439500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 30329743500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30332047500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30429583500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30432271500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 30531343500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 30532495500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30631183500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 30730255500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30731407500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30732559500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30830095500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30831631500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 30929551500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 30930703500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 30931855500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31030159500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31031695500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31032463500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31129615500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31130383500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31132303500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31230607500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 31231375500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31232527500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31330063500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31330831500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31331599500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31332367500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 31347734500: uvm_test_top.env [debug] case ix  2 iy  0 ip  1
+UVM_INFO u0tbgates.sv(788) @ 31449112500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31450264500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31451416500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31548568500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31550104500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31551256500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31649560500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 31650328500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31651480500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31748632500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31749400500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31750168500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31751320500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31848856500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 31851160500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 31949848500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 31951000500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32048920500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32049688500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32051224500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 32149144500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 32150680500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32249368500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 32250136500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32251288500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 32349592500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 32350360500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32351128500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32448664500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32449432500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32450200500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32548888500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32551192500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 32648728500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32649496500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32650648500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 32651416500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32748568500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32750488500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32848792500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32850328500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 32948632500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 32950552500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 33049624500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 33051160500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33148696500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33149464500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33151000500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33248920500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33249688500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33251224500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33348760500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33349528500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33351448500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 33448984500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33450904500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33548824500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33550360500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33551512500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33648664500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33649432500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33651352500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 33749272500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33750808500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33751576500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 33766788500: uvm_test_top.env [debug] case ix  2 iy  2 ip  0
+UVM_INFO u0tbgates.sv(788) @ 33868322500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33869474500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33871010500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 33967778500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 33969314500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 33970466500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34068386500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 34069154500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34070690500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 34167842500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34168610500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34169378500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34170530500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34267682500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34367906500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34370210500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 34370978500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34467746500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34468898500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34470434500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34567970500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34570274500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 34571042500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34668194500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34668962500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34670498500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34767650500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34769954500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34868258500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 34869026500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34869794500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34870946500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34967714500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 34970786500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35068706500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 35069474500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35070626500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35167778500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35168930500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35170082500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35268002500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35270690500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 35367842500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35368994500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35370530500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35467682500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35468450500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35469602500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35470754500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35568290500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35570594500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35667746500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35668898500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35670050500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35670818500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35768738500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 35769890500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35867810500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35868962500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 35870882500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 35967650500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 35969954500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 35970722500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36068258500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36070946500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36168098500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36168866500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36169634500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36170786500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 36185848500: uvm_test_top.env [debug] case ix  2 iy  2 ip  1
+UVM_INFO u0tbgates.sv(788) @ 36287148500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36288300500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36289836500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 36386988500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36388524500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36389676500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36487596500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 36488364500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36489900500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 36586668500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36587436500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36588204500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36589356500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36686892500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36688044500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36688812500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36787116500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36788652500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 36888108500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 36889644500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36986796500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 36987948500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 36989868500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 37087788500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 37090092500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 37186860500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37188396500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37189548500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37286700500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37288236500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37289004500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37289772500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37386924500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37388844500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37389996500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37486764500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37487916500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37488684500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37587756500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 37588908500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37590060500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37686828500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37689132500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37787820500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 37788972500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 37789740500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37887660500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 37889196500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 37889964500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37987500500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 37988268500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 37989420500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38087340500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38089260500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38090028500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38187564500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 38188332500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38189100500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38287020500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38288172500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38290092500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 38386860500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38389164500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 38389932500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38486700500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38489772500: uvm_test_top.env.agent.txsbtm [debug] delta time   23040 expected    4000 mult    5.76
+UVM_INFO u0tbgates.sv(788) @ 38586924500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38588460500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38589612500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 38604903500: uvm_test_top.env [debug] case ix  2 iy  3 ip  0
+UVM_INFO u0tbgates.sv(788) @ 38706347500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38707499500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38708651500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38805803500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38807339500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 38808875500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 38906795500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 38907563500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 38908715500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39005867500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39006635500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39007403500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39008939500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 39106475500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39107243500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39108395500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39206699500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 39208619500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 39306155500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39307691500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39308843500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39405995500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39407915500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 39409067500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39505835500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39507371500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 39508907500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39606059500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39609131500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39706667500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 39708971500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39805739500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 39808811500: uvm_test_top.env.agent.txsbtm [debug] delta time   26880 expected    4000 mult    6.72
+UVM_INFO u0tbgates.sv(788) @ 39906347500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39907499500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 39908651500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40006571500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 40007723500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40008875500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40106411500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40107563500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40109099500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 40205867500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40206635500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40208171500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40208939500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40306859500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 40308011500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40309163500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40406315500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40408619500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40506155500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40508843500: uvm_test_top.env.agent.txsbtm [debug] delta time   23040 expected    4000 mult    5.76
+UVM_INFO u0tbgates.sv(788) @ 40605995500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40606763500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40608299500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 40609067500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40706219500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 40706987500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40708907500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40806059500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40808363500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 40907819500: uvm_test_top.env.agent.txsbtm [debug] delta time   23040 expected    4000 mult    5.76
+UVM_INFO u0tbgates.sv(788) @ 40908971500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41007659500: uvm_test_top.env.agent.txsbtm [debug] delta time   23040 expected    4000 mult    5.76
+UVM_INFO u0tbgates.sv(788) @ 41008811500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(1844) @ 41023959500: uvm_test_top.env [debug] case ix  2 iy  3 ip  1
+UVM_INFO u0tbgates.sv(788) @ 41125172500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41126324500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41127476500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41225012500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41226548500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41228084500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 41325620500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 41326388500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41327540500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 41425076500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41425844500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41426612500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41428148500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 41524916500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41527988500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 41625908500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 41628212500: uvm_test_top.env.agent.txsbtm [debug] delta time   19200 expected    4000 mult    4.80
+UVM_INFO u0tbgates.sv(788) @ 41724980500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41726516500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41727284500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41728052500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41824820500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41826356500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41827124500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41827892500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41926196500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 41927348500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 41928116500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42025268500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42027572500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42125492500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42127796500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42225332500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42226100500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42227252500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42324788500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42325940500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42326708500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42327860500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42425396500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42427316500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 42428084500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42525236500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 42526772500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 42527924500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42625076500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42626996500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42724916500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42726452500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 42825140500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 42827060500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 42926132500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(788) @ 43025588500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 43026356500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 43027508500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 43125428500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 43126196500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 43128116500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 43224884500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 43227956500: uvm_test_top.env.agent.txsbtm [debug] delta time   26880 expected    4000 mult    6.72
+UVM_INFO u0tbgates.sv(788) @ 43325492500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 43327412500: uvm_test_top.env.agent.txsbtm [debug] delta time   11520 expected    4000 mult    2.88
+UVM_INFO u0tbgates.sv(788) @ 43328180500: uvm_test_top.env.agent.txsbtm [debug] delta time    3840 expected    4000 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 43425332500: uvm_test_top.env.agent.txsbtm [debug] delta time    7680 expected    4000 mult    1.92
+UVM_INFO u0tbgates.sv(788) @ 43428020500: uvm_test_top.env.agent.txsbtm [debug] delta time   15360 expected    4000 mult    3.84
+UVM_INFO u0tbgates.sv(1844) @ 43443016500: uvm_test_top.env [debug] case ix  3 iy  0 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 45862072500: uvm_test_top.env [debug] case ix  3 iy  0 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 48281129500: uvm_test_top.env [debug] case ix  3 iy  2 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 50700186500: uvm_test_top.env [debug] case ix  3 iy  2 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 53119240500: uvm_test_top.env [debug] case ix  3 iy  3 ip  0
+UVM_INFO u0tbgates.sv(1844) @ 55538295500: uvm_test_top.env [debug] case ix  3 iy  3 ip  1
+UVM_INFO u0tbgates.sv(1844) @ 57957356500: uvm_test_top.env [debug] case ix  4 iy  0 ip  0
+UVM_INFO u0tbgates.sv(788) @ 58058771500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58060019500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58062099500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 58158611500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58160275500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58162355500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 58259283500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 58260115500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58262195500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 58358291500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58359123500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58359955500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58362035500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 58458963500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58460627500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58461459500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58462291500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58559219500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 58562131500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 58659059500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 58659891500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58661971500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 58758899500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58760563500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 58761395500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58762227500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58858323500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58860403500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58862067500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58958579500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58959411500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 58960659500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 58962323500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59058419500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59060083500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59062163500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 59158259500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59159507500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59160755500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59162003500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59258515500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59259763500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59261427500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59262259500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59358771500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59361267500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 59362099500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59458611500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59459859500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59461107500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59462355500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59558867500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59562195500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 59658291500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59659955500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59662035500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 59759379500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 59761043500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59762291500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59858803500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59860051500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 59862131500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59958643500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 59962387500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60058899500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60060147500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60061395500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60062227500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60158323500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60161235500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 60162067500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60258995500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60260243500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60261491500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60262323500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60362163500: uvm_test_top.env.agent.txsbtm [debug] delta time   41600 expected    4320 mult    9.63
+UVM_INFO u0tbgates.sv(1844) @ 60376410500: uvm_test_top.env [debug] case ix  4 iy  0 ip  1
+UVM_INFO u0tbgates.sv(788) @ 60477818500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60479066500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60481146500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 60577658500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60579322500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 60581402500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 60678330500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 60679162500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60681242500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 60777338500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60778170500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60779002500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60781082500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 60877594500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60878426500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60881338500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 60977434500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60978682500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 60980346500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 60981178500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61078106500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 61078938500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61081434500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 61177530500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61178362500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61179610500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61181274500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61277370500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61278618500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61281114500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 61377626500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61378458500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61380538500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 61381370500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61478714500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 61480378500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 61481210500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61577306500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61580218500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 61581050500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61678810500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 61680474500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61681306500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61777818500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 61778650500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61779482500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61781146500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 61880154500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 61881402500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61977498500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61978746500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61979578500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 61981242500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62078170500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 62079418500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62080250500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62081082500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62178010500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62178842500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62180506500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62181338500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62277434500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62279930500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 62281178500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62378106500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62379770500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 62381434500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62477946500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62478778500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62480026500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62481274500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62578618500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 62579450500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62581114500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 62678042500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62678874500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62680122500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62681370500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62777466500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62778298500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62779130500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62780378500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62781210500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(1844) @ 62795468500: uvm_test_top.env [debug] case ix  4 iy  2 ip  0
+UVM_INFO u0tbgates.sv(788) @ 62896858500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62898106500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 62900602500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 62996698500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 62998362500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63000442500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 63097370500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 63098202500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63100698500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 63196378500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63197210500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63198042500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63200122500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 63296634500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63297466500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63299546500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63300378500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63396474500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63398554500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63400218500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 63498810500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 63499642500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63500890500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63596570500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63597402500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63599482500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 63600314500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63697242500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 63699322500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 63700570500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63797082500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63797914500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63799162500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63800410500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63897338500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 63898586500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63900666500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 63997178500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 63998010500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 63999258500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64000506500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64097018500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64098266500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64099514500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64100762500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64196858500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64198106500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64199354500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64200186500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64296698500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64297530500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64300858500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 64396538500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64399034500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 64400282500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64496378500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64499290500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 64500538500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64596634500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64598298500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 64600378500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 64696474500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64698138500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64700218500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64796730500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64798810500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64799642500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64800474500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64896986500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 64897818500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64899066500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 64900730500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 64997242500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 64998490500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65000154500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65097498500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 65098746500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65100410500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65196506500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65197754500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65200250500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(1844) @ 65214521500: uvm_test_top.env [debug] case ix  4 iy  2 ip  1
+UVM_INFO u0tbgates.sv(788) @ 65315897500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 65317145500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 65319641500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 65415737500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65417401500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 65419481500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 65516409500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 65517241500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65519737500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 65615417500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65616249500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65617081500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65619161500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 65716921500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 65717753500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65718585500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65719417500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65818009500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 65819257500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 65915769500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65917017500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 65917849500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 65919513500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66016025500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66017689500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 66019353500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66115865500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66117113500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66119193500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66215705500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66217785500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66219865500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 66316377500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 66319705500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 66415801500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66416633500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66417881500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66419545500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66516889500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 66518553500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66519801500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66615897500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66617145500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66619641500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66715737500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66716985500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66717817500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66719897500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 66815577500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66816409500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66817657500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 66819737500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 66915833500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 66919161500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67016505500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 67017753500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67019417500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67115513500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67116761500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67118009500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67119257500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67216185500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67219929500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 67315609500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67316857500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67318105500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67319353500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67415865500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67416697500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67419609500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 67515705500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67516537500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67518201500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 67519865500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67616377500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 67617209500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67618041500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67619705500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(1844) @ 67633578500: uvm_test_top.env [debug] case ix  4 iy  3 ip  0
+UVM_INFO u0tbgates.sv(788) @ 67734945500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67736193500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67738273500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 67834785500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67836449500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 67838945500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 67935457500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 67936289500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 67938369500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 68034465500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68035297500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68036129500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68038625500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 68134721500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68135969500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68136801500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68138881500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 68234977500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68235809500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68237057500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68238305500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68334817500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68335649500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68338561500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 68434657500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68435489500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68436321500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68437153500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68438817500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68535745500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 68538657500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68636001500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 68638913500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68736257500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 68738753500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 68837345500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 68839009500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 68935105500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 68935937500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 68938849500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 69034529500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69036193500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69038273500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69135617500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 69136865500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69137697500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69138529500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69235041500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69236289500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69238369500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69334881500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69335713500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69336961500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69338625500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69435969500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 69437217500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69438881500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 69534561500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69536225500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 69537473500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69538305500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69635233500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69638561500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 69734657500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69737569500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69738401500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69834497500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69835329500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69836577500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69838241500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69935169500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 69937249500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 69938497500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70035425500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 70037089500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70038753500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(1844) @ 70052636500: uvm_test_top.env [debug] case ix  4 iy  3 ip  1
+UVM_INFO u0tbgates.sv(788) @ 70153993500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70155241500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70157321500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 70253833500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70255497500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70257993500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 70354505500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 70355337500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70357417500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 70453513500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70454345500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70455177500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70457673500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(788) @ 70555017500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 70555849500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70557929500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 70654441500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 70656521500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70657353500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70755945500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 70757609500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70854121500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70857865500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 70953961500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 70954793500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 70956457500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 70957705500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 71054217500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 71057545500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 71154057500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 71156137500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 71157801500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 71253897500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71255977500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 71256809500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71258057500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 71356233500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 71357481500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71454409500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 71457737500: uvm_test_top.env.agent.txsbtm [debug] delta time   29120 expected    4320 mult    6.74
+UVM_INFO u0tbgates.sv(788) @ 71555081500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 71557577500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 71654089500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 71656169500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 71657417500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71753929500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71754761500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71757673500: uvm_test_top.env.agent.txsbtm [debug] delta time   24960 expected    4320 mult    5.78
+UVM_INFO u0tbgates.sv(788) @ 71854601500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 71855849500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71856681500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71857513500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71953609500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71954857500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71955689500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 71957353500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72053865500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72056777500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 72058025500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 72154121500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 72155369500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72157865500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 72254377500: uvm_test_top.env.agent.txsbtm [debug] delta time   12480 expected    4320 mult    2.89
+UVM_INFO u0tbgates.sv(788) @ 72255625500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 72256457500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72257705500: uvm_test_top.env.agent.txsbtm [debug] delta time    8320 expected    4320 mult    1.93
+UVM_INFO u0tbgates.sv(788) @ 72353801500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72356297500: uvm_test_top.env.agent.txsbtm [debug] delta time   16640 expected    4320 mult    3.85
+UVM_INFO u0tbgates.sv(788) @ 72357545500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72453641500: uvm_test_top.env.agent.txsbtm [debug] delta time    4160 expected    4320 mult    0.96
+UVM_INFO u0tbgates.sv(788) @ 72457801500: uvm_test_top.env.agent.txsbtm [debug] delta time   20800 expected    4320 mult    4.81
+UVM_INFO u0tbgates.sv(1854) @ 72471691500: uvm_test_top.env [debug] post group 1
+UVM_INFO u0tbgates.sv(1862) @ 74401748500: uvm_test_top.env [debug] post group 2
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1271) @ 76431777500: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 76431777500: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1218
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[debug]  1214
+[version]     1
+
+Simulation complete via $finish(1) at time 764317775 NS + 64
+/home/morris/uvm-1.2/src/base/uvm_root.svh:517     $finish;
+ncsim> exit

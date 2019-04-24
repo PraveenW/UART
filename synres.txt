@@ -1,0 +1,680 @@
+
+                      Design Compiler Graphical
+                            DC Ultra (TM)
+                             DFTMAX (TM)
+                         Power Compiler (TM)
+                           DesignWare (R)
+                           DC Expert (TM)
+                         Design Vision (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                            DFT Compiler
+                        Library Compiler (TM)
+                         Design Compiler(R)
+
+          Version I-2013.12-SP5 for RHEL32 -- Jul 20, 2014
+               Copyright (c) 1988-2014 Synopsys, Inc.
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+Information: As of the J-2014.09 version of dc_shell, the 32-bit
+             version of the product will not be delivered by default.
+             If you require a 32-bit version for any reason, please
+             contact Synopsys technical support.
+
+Initializing...
+#
+# set the q.clk to be your interface name <name>.clk
+# set the q.rst to be your interface name <name>.rst
+#
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+analyze -format sverilog {u0if.sv u0.sv transmitter.sv reciever.sv }
+Running PRESTO HDLC
+Searching for ./u0if.sv
+Searching for ./u0.sv
+Searching for ./transmitter.sv
+Searching for ./reciever.sv
+Compiling source file ./u0if.sv
+Warning:  ./u0if.sv:27: The construct 'clocking' is not supported in synthesis; it is ignored. (VER-708)
+Warning:  ./u0if.sv:28: The construct 'clocking' is not supported in synthesis; it is ignored. (VER-708)
+Compiling source file ./u0.sv
+Compiling source file ./transmitter.sv
+Compiling source file ./reciever.sv
+Presto compilation completed successfully.
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+1
+#current_design u0
+elaborate u0
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine u0 line 18 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     ubrrnl_reg      | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       ua_reg        | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       ub_reg        | Flip-flop |   7   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       uc_reg        | Flip-flop |   6   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       uc_reg        | Flip-flop |   2   |  Y  | N  | N  | Y  | N  | N  | N  |
+|     ubrrnh_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 65 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    write_reg_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    addr_reg_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 88 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       cnt_reg       | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 104 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    baud_clk_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 117 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     div_by2_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 128 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     div_by4_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 139 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     div_by8_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 151 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    div_by16_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine u0 line 244 in file
+		'./u0.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'u0'.
+Information: Building the design 'transmitter'. (HDL-193)
+
+Statistics for case statements in always block at line 85 in file
+	'./transmitter.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            99            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 222 in file
+	'./transmitter.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           229            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine transmitter line 55 in file
+		'./transmitter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       a6_reg        | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|    udrn_reg_reg     | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   udren_flag_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|       a5_reg        | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine transmitter line 173 in file
+		'./transmitter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    txcn_intr_reg    | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|   tx_data_reg_reg   | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+|   shift_reg_q_reg   | Flip-flop |   8   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      state_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     tx_cnt_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine transmitter line 197 in file
+		'./transmitter.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   bit_cnt_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   bit_cnt_reg_reg   | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|  stop_cnt_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'reciever'. (HDL-193)
+
+Statistics for case statements in always block at line 115 in file
+	'./reciever.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           131            |     no/auto      |
+===============================================
+
+Statistics for case statements in always block at line 278 in file
+	'./reciever.sv'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           283            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine reciever line 69 in file
+		'./reciever.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       b1_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       a7_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    state_ext_reg    | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a4_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       a3_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       a2_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine reciever line 230 in file
+		'./reciever.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   bit_cnt_reg_reg   | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   bit_cnt_reg_reg   | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|      state_reg      | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  tick_counter_reg   | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     rx_cnt_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  rcv_shift_reg_reg  | Flip-flop |  10   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    data_reg_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    data_reg_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+1
+create_clock uif.clk -name clk -period 8.0
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 clk
+1
+set_propagated_clock clk
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock clk [all_outputs]
+1
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port uif.clk]] [get_port uif.rst]]
+{uif.read uif.write uif.din[7] uif.din[6] uif.din[5] uif.din[4] uif.din[3] uif.din[2] uif.din[1] uif.din[0] uif.addr[7] uif.addr[6] uif.addr[5] uif.addr[4] uif.addr[3] uif.addr[2] uif.addr[1] uif.addr[0] uif.txack uif.rxack uif.tcack uif.rxdata}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+1
+set_output_delay 0.6 -clock clk [all_outputs]
+1
+set_fix_hold [ get_clocks clk ]
+1
+set_output_delay 0.3 -clock clk [all_outputs]
+1
+set_wire_load_model -name T8G00TW8
+1
+compile_ultra
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | I-2013.12-DWBB_201312.5 |     *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 17 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+Loaded alib file './alib-52/tc240c.db_NOMIN25.alib'
+Information: Ungrouping hierarchy u1_trans before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy u1_recv before Pass 1 (OPT-776)
+Information: Ungrouping 2 of 3 hierarchies before Pass 1 (OPT-775)
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'u0'
+Information: Added key list 'DesignWare' to design 'u0'. (DDB-72)
+Information: The register 'u1_recv/a3_reg' is a constant and will be removed. (OPT-1206)
+ Implement Synthetic for 'u0'.
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:03    1911.5      0.00       0.0      17.6                                0.00
+    0:00:03    1911.5      0.00       0.0      17.6                                0.00
+    0:00:03    1911.5      0.00       0.0      17.6                                0.00
+    0:00:03    1911.5      0.00       0.0      17.6                                0.00
+  Re-synthesis Optimization (Phase 1)
+  Re-synthesis Optimization (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:03    1431.5      0.00       0.0     735.7                                0.00
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+    0:00:03    1433.0      0.00       0.0       0.0                                0.00
+    0:00:03    1465.0      0.00       0.0       0.0                                0.00
+    0:00:03    1465.0      0.00       0.0       0.0                                0.00
+    0:00:04    1465.0      0.00       0.0       0.0                                0.00
+    0:00:04    1465.0      0.00       0.0       0.0                                0.00
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:04    1465.0      0.00       0.0       0.0                                0.00
+    0:00:04    1465.0      0.00       0.0       0.0                                0.00
+
+
+  Beginning Area-Recovery Phase  (max_area 0)
+  -----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                             MIN DELAY
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            COST   
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:04    1465.0      0.00       0.0       0.0                                0.00
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+    0:00:05    1428.0      0.00       0.0       0.0                                0.00
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+  Optimization Complete
+  ---------------------
+1
+create_clock uif.clk -name clk -period 10.0
+1
+update_timing
+Information: Updating design information... (UID-85)
+1
+report_timing -max_paths 3
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : u0
+Version: I-2013.12-SP5
+Date   : Sun Oct  4 03:55:44 2015
+****************************************
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: cnt_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cnt_reg[11]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  u0                 T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cnt_reg[9]/CP (CFD2QXL)                  0.00       0.00 r
+  cnt_reg[9]/Q (CFD2QXL)                   0.41       0.41 f
+  U587/Z (COR4X1)                          0.36       0.76 f
+  U491/Z (COR8X1)                          0.40       1.17 f
+  U440/Z (COND1X1)                         0.70       1.87 r
+  U594/Z (CMX2XL)                          0.44       2.31 f
+  U596/Z (COR2X1)                          0.20       2.52 f
+  U597/Z (COR2X1)                          0.19       2.71 f
+  U598/Z (COR2X1)                          0.19       2.90 f
+  U599/Z (COR2X1)                          0.19       3.09 f
+  U833/Z (COR2X1)                          0.19       3.27 f
+  U834/Z (COR2X1)                          0.19       3.46 f
+  U835/Z (COR2X1)                          0.19       3.65 f
+  U836/Z (COR2X1)                          0.19       3.84 f
+  U837/Z (COR2X1)                          0.19       4.03 f
+  U838/Z (COR2X1)                          0.19       4.22 f
+  U499/Z (CNR2X1)                          0.13       4.36 r
+  U501/Z (CENX1)                           0.18       4.54 r
+  cnt_reg[11]/D (CFD2QXL)                  0.00       4.54 r
+  data arrival time                                   4.54
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.25       9.75
+  cnt_reg[11]/CP (CFD2QXL)                 0.00       9.75 r
+  library setup time                      -0.22       9.53
+  data required time                                  9.53
+  -----------------------------------------------------------
+  data required time                                  9.53
+  data arrival time                                  -4.54
+  -----------------------------------------------------------
+  slack (MET)                                         4.99
+
+
+  Startpoint: cnt_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cnt_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  u0                 T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cnt_reg[9]/CP (CFD2QXL)                  0.00       0.00 r
+  cnt_reg[9]/Q (CFD2QXL)                   0.41       0.41 f
+  U587/Z (COR4X1)                          0.36       0.76 f
+  U491/Z (COR8X1)                          0.40       1.17 f
+  U440/Z (COND1X1)                         0.70       1.87 r
+  U594/Z (CMX2XL)                          0.44       2.31 f
+  U596/Z (COR2X1)                          0.20       2.52 f
+  U597/Z (COR2X1)                          0.19       2.71 f
+  U598/Z (COR2X1)                          0.19       2.90 f
+  U599/Z (COR2X1)                          0.19       3.09 f
+  U833/Z (COR2X1)                          0.19       3.27 f
+  U834/Z (COR2X1)                          0.19       3.46 f
+  U835/Z (COR2X1)                          0.19       3.65 f
+  U836/Z (COR2X1)                          0.19       3.84 f
+  U837/Z (COR2X1)                          0.19       4.03 f
+  U838/Z (COR2X1)                          0.19       4.22 f
+  U852/Z (CENX1)                           0.15       4.38 f
+  cnt_reg[10]/D (CFD2QXL)                  0.00       4.38 f
+  data arrival time                                   4.38
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.25       9.75
+  cnt_reg[10]/CP (CFD2QXL)                 0.00       9.75 r
+  library setup time                      -0.22       9.53
+  data required time                                  9.53
+  -----------------------------------------------------------
+  data required time                                  9.53
+  data arrival time                                  -4.38
+  -----------------------------------------------------------
+  slack (MET)                                         5.16
+
+
+  Startpoint: cnt_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: cnt_reg[9] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  u0                 T8G00TW8              tc240c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  cnt_reg[9]/CP (CFD2QXL)                  0.00       0.00 r
+  cnt_reg[9]/Q (CFD2QXL)                   0.41       0.41 f
+  U587/Z (COR4X1)                          0.36       0.76 f
+  U491/Z (COR8X1)                          0.40       1.17 f
+  U440/Z (COND1X1)                         0.70       1.87 r
+  U594/Z (CMX2XL)                          0.44       2.31 f
+  U596/Z (COR2X1)                          0.20       2.52 f
+  U597/Z (COR2X1)                          0.19       2.71 f
+  U598/Z (COR2X1)                          0.19       2.90 f
+  U599/Z (COR2X1)                          0.19       3.09 f
+  U833/Z (COR2X1)                          0.19       3.27 f
+  U834/Z (COR2X1)                          0.19       3.46 f
+  U835/Z (COR2X1)                          0.19       3.65 f
+  U836/Z (COR2X1)                          0.19       3.84 f
+  U837/Z (COR2X1)                          0.19       4.03 f
+  U853/Z (CENX1)                           0.15       4.18 f
+  cnt_reg[9]/D (CFD2QXL)                   0.00       4.18 f
+  data arrival time                                   4.18
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.25       9.75
+  cnt_reg[9]/CP (CFD2QXL)                  0.00       9.75 r
+  library setup time                      -0.22       9.53
+  data required time                                  9.53
+  -----------------------------------------------------------
+  data required time                                  9.53
+  data arrival time                                  -4.18
+  -----------------------------------------------------------
+  slack (MET)                                         5.35
+
+
+1
+write -hierarchy -format verilog -output u0_gates.v
+Writing verilog file '/home/wa/wali9257/ee272/272hw/fina_run/u0_gates.v'.
+1
+quit
+
+Thank you...
