@@ -1,3 +1,24 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: San Jose State University
+// Engineer: Praveen Waliitagi
+// 
+// Create Date:    13:08:29 04/09/2015 
+// Design Name: USART0
+// Module Name:    transmitter
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+
+
 module transmitter (
 input org_clk,
 input clk,
